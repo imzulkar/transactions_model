@@ -31,9 +31,10 @@ if __name__ == "__main__":
     db.create_table()  # create table if not exists
 
     # random value input
+    # ===========uncomment below code to insert random data into database=================
     # for i in range(100):
     #     random_data_input()
 
     generate_report(
         db, account_number="98529295", start_date="2023-01-01", end_date="2023-12-31"
-    )
+    )  # change account number and date range to get different report
