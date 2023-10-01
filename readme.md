@@ -25,10 +25,10 @@ The program will generate a report of the total transactions for each month for 
 **Example usage:**
 
 ```
-python main.py --account-number 98529295 --start-date 2023-01-01 --end-date 2023-12-31
+python main.py 
 ```
 
-This will generate a report of the total transactions for each month for account number 98529295 for the period from 2023-01-01 to 2023-12-31.
+This will generate a report of the total transactions for each month for account number.
 
 **Database model:**
 
